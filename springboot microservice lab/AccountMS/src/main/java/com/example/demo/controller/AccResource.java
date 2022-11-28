@@ -39,7 +39,7 @@ public class AccResource {
 	}
 	
 	
-	@Autowired
+	/*@Autowired
 	AccountServiceConfig  asc;
 
 	@GetMapping("/account/properties")
@@ -48,7 +48,7 @@ public class AccResource {
                          Properties properties=new Properties(asc.getMessage(),asc.getBuildversion(),asc.getMail(),asc.getSubject());
                          String obj=ow.writeValueAsString(properties);
                          return obj;
-    }
+    }*/
 	
 
 }
